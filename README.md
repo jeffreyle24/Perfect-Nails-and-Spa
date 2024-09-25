@@ -27,8 +27,7 @@ Responsive Design: The site is fully responsive, providing a seamless experience
 
 Service Pages: Detailed pages describing the nail services offered, such as manicures, pedicures, and nail art.
 
-Contact & Booking Information: Clear and accessible contact information, including a Google Maps integration, phone number, and an option for customers to book appointments online.
-
+Contact & Booking Information: Clear and accessible contact information, including a Google Maps integration, phone number, and hours of operation.
 Gallery: A photo gallery showcasing the salon’s work, giving customers a sense of the available services.
 
 Getting Started
