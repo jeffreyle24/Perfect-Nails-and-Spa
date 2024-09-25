@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="styles.css" rel="stylesheet">
+    <title>Perfect Nails & Spa</title>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <button class="hamburger-menu" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-xmark" style="display:none;"></i>
+            </button>
+            <div class="logo">
+                <a href="index.html"><img src="images/Logo/perfect-nails-logo.png" alt="Perfect Nails & Spa Logo"></a>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="location.html">Location</a></li>
+            </ul>
+            <div class="nav-buttons">
+                <a href="contact.html" class="navbar-btn">Book Appointment</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <header class="hero">
+            <img src="images/elegant-manicure.jpeg" alt="Elegant manicured hands with pink nail polish and delicate nail art." class="hero-image">
+            <div class="hero-content">
+                <h1>Experience the Art of Perfection.</h1>
+                <a href="contact.html" class="hero-button">Book Appointment</a>
+            </div>
+        </header>
+
+        <!-- Feature 4 Section -->
+        <section class="featured-4-section">
+            <div class="section-header">
+                <h2 class="section-title">Why Choose Us?</h2>
+            </div>
+            <div class="items-container">
+                <article class="featured-item" aria-label="article">
+                    <figure>
+                        <img src="images/icons/icons8-relax.svg" alt="Relaxing Environment">
+                        <figcaption>Relaxing Environment</figcaption>
+                    </figure>
+                    <p>Step into a serene oasis where every detail is crafted for tranquility. Experience the soothing touch of expert massage therapy, tailored to melt away stress and tension. Let the peaceful ambiance rejuvenate your mind, body, and spirit.</p>
+                </article>
+                <article class="featured-item" aria-label="article">
+                    <figure>
+                        <img src="images/icons/icons8-nails.svg" alt="Quality Nail Care">
+                        <figcaption>Quality Nail Care</figcaption>
+                    </figure>
+                    <p>Experience top-tier nail care with our skilled technicians using the latest techniques and highest-quality products. From classic manicures to advanced nail art, achieve beautiful results that last.</p>
+                </article>
+                <article class="featured-item" aria-label="article">
+                    <figure>
+                        <img src="images/icons/icons8-empathy.svg" alt="Customer Service">
+                        <figcaption>Customer Service</figcaption>
+                    </figure>
+                    <p>Our commitment to exceptional service ensures every interaction is pleasant and personalized. We prioritize your comfort and satisfaction, aiming to exceed expectations with every appointment.</p>
+                </article>
+                <article class="featured-item" aria-label="article">
+                    <figure>
+                        <img src="images/icons/icons8-delivery-time.svg" alt="Time Efficient">
+                        <figcaption>Time Efficient</figcaption>
+                    </figure>
+                    <p>We value your time. Our services are designed to be efficient without compromising quality. Enjoy prompt appointments and streamlined services that get you back to your day in no time.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Feature 2 Section -->
+        <section class="feature-section">
+            <div class="container">
+                <div class="feature">
+                    <img src="images/pedicure-foot-massage.jpeg" alt="Nail technician giving a foot massage during a pedicure session" class="feature-image">
+                    <div class="feature-content">
+                        <h2>Spa Pedicures</h2>
+                        <p>Cuticle Trimming | Hot Towel Massage | Callus Treatment | Scented Sugar Scrub | Paraffin Wax & More!</p>
+                        <a href="services.html" class="learn-more-btn">Learn More</a>
+                    </div>
+                </div>
+                <div class="feature feature-reverse">
+                    <img src="images/nail-care-accessories.jpeg" alt="Nail care accessories with nail polish, scissors, cuticle nipper, nail file, and beauty cream on a dual-tone pink and blue background" class="feature-image">
+                    <div class="feature-content">
+                        <h2>Sanitized & Sterilized</h2>
+                        <p>At Perfect Nails, we prioritize your safety and health by rigorously sterilizing all equipment and disposing of all single-use items after each client session. Enjoy peace of mind with every visit.</p>
+                        <a href="about.html" class="learn-more-btn">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Google Map API -->
+        <section class="google-map">
+            <h2 class="map-section-title">Find Us Here!</h2>
+            <!-- The div element for the map -->
+            <div id="map"></div>
+          
+            <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUJ07b5bl94MX3VjBTBUKZZS9pgVh1OoY&callback=initMap" async defer></script>
+        </section>
+        
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                © 2024 Perfect Nails & Spa. All rights reserved.
+            </div>
+            <nav class="footer-center">
+                <a href="about.html" class="footer-link">About Us</a>
+                <a href="services.html" class="footer-link">Services</a>
+                <a href="contact.html" class="footer-link">Contact</a>
+                <a href="location.html" class="footer-link">Location</a>
+            </nav>
+            <div class="footer-right" role="navigation" aria-label="Social media links">
+                <a href="https://www.facebook.com/p/Perfect-Nails-100057294076601/" class="social-link">
+                    <img src="images/icons/icons8-facebook.svg" alt="Facebook" class="social-icon">
+                </a>
+                <a href="https://instagram.com" class="social-link">
+                    <img src="images/icons/icons8-instagram.svg" alt="Instagram" class="social-icon">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

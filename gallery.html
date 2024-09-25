@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="styles.css" rel="stylesheet">
+    <title>Perfect Nails & Spa Gallery</title>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <button class="hamburger-menu" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-xmark" style="display:none;"></i>
+            </button>
+            <div class="logo">
+                <a href="index.html"><img src="images/Logo/perfect-nails-logo.png" alt="Perfect Nails & Spa Logo"></a>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="location.html">Location</a></li>
+            </ul>
+            <div class="nav-buttons">
+                <a href="contact.html" class="navbar-btn">Book Appointment</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="gallery">
+            <h2 class="gallery-header">Photo Gallery</h2>
+            <div class="gallery-container">
+                <div class="gallery-image">
+                    <img src="images/gallery/salon1.jpg" alt="Salon Interior 1">
+                </div>
+                <div class="gallery-image">
+                    <img src="images/gallery/salon2.jpg" alt="Salon Interior 2">
+                </div>
+                <div class="gallery-image">
+                    <img src="images/gallery/IMG_5058.jpg" alt="Salon Interior 3">
+                </div>
+                <div class="gallery-image">
+                    <img src="images/gallery/IMG_5054.jpg" alt="pedicure chairs">
+                </div>
+                <div class="gallery-image">
+                    <img src="images/gallery/IMG_5043.jpg" alt="pedicure chairs">
+                </div>
+                <figure class="gallery-image">
+                    <img src="images/gallery/pink-nail-design.png" alt="Close-up of a hand showcasing a vibrant pink nail design.">
+                    <figcaption>Credit: Jennifer T. from Yelp</figcaption>
+                </figure>
+                <figure class="gallery-image">
+                    <img src="images/gallery/pink-silver-nail-design.png" alt="Hand displaying a nail design featuring pink polish and a silver glitter accent nail, with small gemstones for extra sparkle.">
+                    <figcaption>Credit: Jordan W. from Yelp</figcaption>
+                </figure>
+                <figure class="gallery-image">
+                    <img src="images/gallery/pearl-nail-design.png" alt="Close-up of a hand displaying a French manicure with pearl accents on pink nail beds and white tips.">
+                    <figcaption>Credit: Tanya W. from Yelp</figcaption>
+                </figure>
+                <figure class="gallery-image">
+                    <img src="images/gallery/christmas-nail-design.png" alt="Close-up of a hand showcasing Christmas-themed nail art with red and white designs, including glossy red, candy cane stripes, and a bow motif">
+                    <figcaption>Credit: Ashley D. from Yelp</figcaption>
+                </figure>
+                <figure class="gallery-image">
+                    <img src="images/gallery/elegant-black-leopard-nail-design.png" alt="Hand holding a glass showing off a sophisticated nail design with black polish and leopard print on accent nails.">
+                    <figcaption>Credit: Kristine T. from Yelp</figcaption>
+                </figure>
+            </div>
+        </section>
+        <!-- Full Screen Overlay -->
+        <div id="imageOverlay" class="image-overlay" style="display:none;" role="dialog" aria-modal="true">
+            <span class="close" aria-label="Close">&times;</span>
+            <img class="overlay-content" id="overlayImage" src="images/placeholder.png" alt="Gallery Image">
+            <span class="prev" aria-label="Previous image">&#10094;</span>
+            <span class="next" aria-label="Next image">&#10095;</span>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                © 2024 Perfect Nails & Spa. All rights reserved.
+            </div>
+            <nav class="footer-center">
+                <a href="about.html" class="footer-link">About Us</a>
+                <a href="services.html" class="footer-link">Services</a>
+                <a href="contact.html" class="footer-link">Contact</a>
+                <a href="location.html" class="footer-link">Location</a>
+            </nav>
+            <div class="footer-right" role="navigation" aria-label="Social media links">
+                <a href="https://www.facebook.com/p/Perfect-Nails-100057294076601/" target="_blank" class="social-link">
+                    <img src="images/icons/icons8-facebook.svg" alt="Facebook" class="social-icon">
+                </a>
+                <a href="https://instagram.com" class="social-link">
+                    <img src="images/icons/icons8-instagram.svg" alt="Instagram" class="social-icon">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

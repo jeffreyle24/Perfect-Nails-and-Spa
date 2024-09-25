@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="styles.css" rel="stylesheet">
+    <title>Perfect Nails & Spa Services</title>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <button class="hamburger-menu" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-xmark" style="display:none;"></i>
+            </button>
+            <div class="logo">
+                <a href="index.html"><img src="images/Logo/perfect-nails-logo.png" alt="Perfect Nails & Spa Logo"></a>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="location.html">Location</a></li>
+            </ul>
+            <div class="nav-buttons">
+                <a href="contact.html" class="navbar-btn">Book Appointment</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="service-page">
+            <h1>Services List</h1>
+            <figure class="service-image">
+                <img src="images/manicure-process.jpeg" alt="Close-up of a manicure session with nail technician trimming cuticles.">
+            </figure>
+            <nav class="service-tabs">
+                <ul class="tab-list" role="tablist">
+                    <li class="tab active" data-target="Pedicure">Pedicure</li>
+                    <li class="tab" data-target="Manicure">Manicure</li>
+                    <li class="tab" data-target="Acrylic">Acrylic Nails</li>
+                    <li class="tab" data-target="SNS">SNS Dipping Powder</li>
+                    <li class="tab" data-target="Liquid">CND Liquid Gel</li>
+                    <li class="tab" data-target="Adds">Additional Services</li>
+                    <li class="tab" data-target="Wax">Wax</li>
+                    <li class="tab" data-target="Kids">Kids Menu</li>
+                </ul>
+                <div id="Pedicure" class="tab-content" role="tabpanel">
+                    <div class="services-grid">
+                        <div class="service-item">
+                            <h3>The Classic Pedicure</h3>
+                            <p>Includes file, shaping, cuticle trimming, buffing of nails, hot towel wrap massage and polish.</p>
+                            <span class="price">$30</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>The Deluxe Pedicure</h3>
+                            <p>Includes file, shaping, cuticle trimming, buffing of nails, plus citrus scented sugar scrub, callus treatment, hot towel wrap massage, OPI lotion, and polish.</p>
+                            <span class="price">$40</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>The Perfect Pedicure</h3>
+                            <p>Includes file, shaping, cuticle trimming, buffing of nails, plus citrus scented sugar scrub, callus treatment, your choice between mud mask or paraffin wax, hot stone wrap massage, hot towel wrap massage, OPI lotion, and polish.</p>
+                            <span class="price">$50</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Organic Volcano W/ Collagen Pedicure</h3>
+                            <p><span class="bold">Luxurious</span> pedicure to refresh and rejuvenate your feet. A magnificent "Volcano Eruption" that releases luxury fragrances into the air. The Volcano Spa includes <span class="bold">detox volcano crystal</span>, <span class="bold">callus treatment</span>, followed by <span class="bold">sugar scrub</span> with <span class="bold">fresh citrus</span>. Certified <span class="bold">organic foot mask</span>, <span class="bold">hot towel wrap</span>, warm <span class="bold">paraffin wax wrap</span>, massage with <span class="bold">hot stones</span>, or Organic Collagen lotion and oil. Scents: Green Tea & Lavender Eruption, Tropical Citrus, Romance, & Honey Pearl.</p>
+                            <span class="price">$65</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Polish Change</h3>
+                            <p>Includes polish.</p>
+                            <span class="price">$12</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Polish Change Gel </h3>
+                            <p>Includes gel polish</p>
+                            <span class="price">$25</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="Manicure" class="tab-content active" role="tabpanel">
+                    <div class="services-grid">
+                        <div class="service-item">
+                            <h3>The Classic Manicure</h3>
+                            <p>Includes file, shaping, cuticle trimming, buffing of nails, hot towel wrap, light massage, and polish.</p>
+                            <span class="price">$22</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>The Deluxe Manicure</h3>
+                            <p>Includes file, shaping, cuticle trimming, buffing of nails, plus hot paraffin wax, hot towel wrap massage, OPI lotion and polish.</p>
+                            <span class="price">$32</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>The Perfect Manicure</h3>
+                            <p>Includes file, shaping, cuticle trimming, buffing of nails, plus citrus scented sugar scrub, paraffin wax, hot towel wrap massage, OPI lotion and polish.</p>
+                            <span class="price">$38</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Gel Manicure</h3>
+                            <p>Includes everything in a classic manicure plus gel polish.</p>
+                            <span class="price">$37</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Polish Change</h3>
+                            <p>Includes polish.</p>
+                            <span class="price">$12</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Polish Change Gel </h3>
+                            <p>Includes gel polish</p>
+                            <span class="price">$25</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="Acrylic" class="tab-content active" role="tabpanel">
+                    <div class="services-grid">
+                        <div class="service-item">
+                            <h3>Full Set with Gel Color</h3>
+                            <p>Constructs a full set of acrylic nails, finished with a gel color of your choice for a sleek, durable shine that maintains its luster.</p>
+                            <span class="price">$50</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Fill with Gel Color</h3>
+                            <p>Refreshes your acrylic nails by filling in the new growth and applying a new layer of gel color, ensuring your nails remain impeccably polished and strong.</p>
+                            <span class="price">$45</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Full Set Pink & White</h3>
+                            <p>Crafts a full set of acrylic nails with a classic pink base and pristine white tips, offering a timeless and elegant look.</p>
+                            <span class="price">$60</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Acrylic Nails Ombre</h3>
+                            <p>Delivers a full set of acrylic nails with a smooth gradient between two colors, creating a stylish ombre effect.</p>
+                            <span class="price">$60</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Pink & White Back Fill</h3>
+                            <p>Refreshes the look of pink and white acrylic nails by meticulously filling in the regrowth areas, maintaining the distinct two-toned appearance with precision and care.</p>
+                            <span class="price">$55</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Pink Fill</h3>
+                            <p>Maintains the vibrancy of pink acrylic nails by applying fresh acrylic to the regrowth area, ensuring a seamless finish.</p>
+                            <span class="price">$40</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="SNS" class="tab-content active" role="tabpanel">
+                    <div class="services-grid">
+                        <div class="service-item">
+                            <h3>SNS Color Overlay</h3>
+                            <p>Includes nail preparation, application of base coat directly on <span class="bold">natural nails</span>, dipping in your choice of colored powder, sealing with top coat, and finishing with cuticle oil treatment.</p>
+                            <span class="price">$45</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>SNS Color Full Set</h3>
+                            <p>Involves extending the nails with <span class="bold">artificial tips</span> followed by application of base coat, dipping in your choice of colored powder, sealing with top coat, and concluding with cuticle oil treatment.</p>
+                            <span class="price">$55</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>French Tip Extra</h3>
+                            <p>Enhances any nails with precise and elegant white tips for a classic French tip look.</p>
+                            <span class="price">$5</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Ombre Extra</h3>
+                            <p>Adds a gradient effect to your nail color, seamlessly blending two shades for a stunning ombre finish.</p>
+                            <span class="price">$10</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Cuticle Trim Extra</h3>
+                            <p>Provides detailed cuticle care to ensure your nails look neat and are free from overgrown cuticles.</p>
+                            <span class="price">$10</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="Liquid" class="tab-content active" role="tabpanel">
+                    <div class="services-grid">
+                        <div class="service-item">
+                            <h3>CND Liquid Gel Pink & White Full Set</h3>
+                            <p>Applies a full set of CND liquid gel nails, detailed with a soft pink base and sharp white tips for a polished, sophisticated appearance.</p>
+                            <span class="price">$70</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>CND Liquid Gel Pink & White Back Fill</h3>
+                            <p>Refreshes your existing pink and white gel nails by filling in the regrowth with matching pink and white colors, perfect for extending the life of your manicure.</p>
+                            <span class="price">$60</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>CND Liquid Gel Color Gel Full Set</h3>
+                            <p>Offers a full set of CND liquid gel nails finished with your choice of vibrant, long-lasting gel color for a glossy look.</p>
+                            <span class="price">$60</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>CND Liquid Gel Color Gel Fill</h3>
+                            <p>Updates your existing color gel manicure by filling in the new growth with the same or a new gel color, ensuring a flawless continuation of your style.</p>
+                            <span class="price">$50</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>CND Liquid Gel Clear Gel Full Set</h3>
+                            <p>Provides a full set of CND liquid gel nails coated with a clear gel, enhancing the natural beauty of your nails with a glossy, strengthened finish.</p>
+                            <span class="price">$55</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>CND Liquid Gel Clear Gel Fill</h3>
+                            <p>Replenishes the clear gel on your existing gel nails, filling in the growth and renewing the protective glossy finish.</p>
+                            <span class="price">$45</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="Adds" class="tab-content" role="tabpanel">
+                    <div class="services-grid">
+                        <div class="service-item">
+                            <h3>Callus Treatment</h3>
+                            <p>Break down heavy callus built up with chemical solution.</p>
+                            <span class="price">$7</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Sugar Scrub/Sea Salt Treatment (Extra 5 Min Massage)</h3>
+                            <p>Exfoliate penetrate deeply to soften and tighten skin.</p>
+                            <span class="price">$7</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Mud Mask (Extra 5 Min Massage)</h3>
+                            <p>A cooling rejuvenating foot massage enhanced.</p>
+                            <span class="price">$7</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Paraffin Wax (Extra 5 Min Massage)</h3>
+                            <p>Warm wax opens pores to allow deep penetration for skin softening.</p>
+                            <span class="price">$10</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>10 Min Hot Stone Foot Massage</h3>
+                            <p>Relaxes and soothes muscles with heated stones, enhancing circulation and easing tension.</p>
+                            <span class="price">$10</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>10 Min Foot Massage</h3>
+                            <p>A brief, relaxing massage focused on the feet to relieve stress and enhance comfort.</p>
+                            <span class="price">$10</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Deep French Tip</h3>
+                            <p>Creates a deep white tip for a bold, refined look.</p>
+                            <span class="price">$15</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>French Polish with Service</h3>
+                            <p>Applies classic French polish technique, achieving elegant natural nails with white tips.</p>
+                            <span class="price">$5</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Buff Shine with Service</h3>
+                            <p>Polishes the nails to a high gloss finish without polish, for a clean and natural appearance.</p>
+                            <span class="price">$10</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Nail Designs (2)</h3>
+                            <p>Offers two custom nail art designs, adding a unique and personalized touch to your manicure.</p>
+                            <span class="price">$5+</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Nail Repair</h3>
+                            <p>Addresses breaks or splits in nails, restoring strength and appearance with precision.</p>
+                            <span class="price">$3+</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Color Gel Polish with Service</h3>
+                            <p>Applies vibrant, long-lasting gel polish for a glossy finish that resists chipping.</p>
+                            <span class="price">$15</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>French Tip Extra</h3>
+                            <p>Enhances any nails with precise and elegant white tips for a classic French tip look.<p>
+                            <span class="price">$5</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Ombre Extra</h3>
+                            <p>Adds a gradient effect to your nail color, seamlessly blending two shades for a stunning ombre finish.</p>
+                            <span class="price">$10</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Cuticle Trim Extra</h3>
+                            <p>Provides detailed cuticle care to ensure your nails look neat and are free from overgrown cuticles.</p>
+                            <span class="price">$10</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="Wax" class="tab-content" role="tabpanel">
+                    <div class="services-grid">
+                        <div class="service-item">
+                            <h3>Eyebrow</h3>
+                            <p>Shapes and defines the eyebrows through careful waxing, creating a clean and tailored look.</p>
+                            <span class="price">$12</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Lip</h3>
+                            <p>Removes unwanted hair from the upper lip area for a smooth finish.</p>
+                            <span class="price">$7</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Chin</h3>
+                            <p>Efficiently removes hair from the chin area, ensuring a neat appearance.</p>
+                            <span class="price">$9</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Sideburns</h3>
+                            <p>Clears unwanted hair from the sideburns, enhancing your facial contours.</p>
+                            <span class="price">$12</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Eyebrow, Lip, Chin</h3>
+                            <p>A combination service that includes waxing of the eyebrows, upper lip, and chin for a comprehensive facial hair removal.</p>
+                            <span class="price">$26</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Full Face</h3>
+                            <p>Provides a full facial hair removal service, excluding the eyebrows, for a smooth and clean skin surface.</p>
+                            <span class="price">$40</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Under Arms</h3>
+                            <p>Removes underarm hair, leaving the skin soft and smooth for weeks.</p>
+                            <span class="price">$20</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Half Arms</h3>
+                            <p>Removes hair from either the lower or upper half of the arms, resulting in smooth skin.</p>
+                            <span class="price">$30</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Full Arms</h3>
+                            <p>Complete hair removal from both arms, from the shoulders to the wrists.</p>
+                            <span class="price">$40</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Half Legs</h3>
+                            <p>Targets either the upper or lower half of the legs, removing hair for silky-smooth results.</p>
+                            <span class="price">$40</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Full Legs</h3>
+                            <p>Removes hair from the entire leg area, from the thighs to the ankles.</p>
+                            <span class="price">$55</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Full Legs w/ Bikini</h3>
+                            <p>Includes waxing of the full legs along with the bikini area for complete lower body hair removal.</p>
+                            <span class="price">$85</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Bikini</h3>
+                            <p>Cleans up the bikini line, removing hair outside a standard bikini swimsuit.</p>
+                            <span class="price">$35</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Brazilian</h3>
+                            <p>A thorough wax that removes all hair from the bikini area, front to back.</p>
+                            <span class="price">$50</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Chest</h3>
+                            <p>Removes hair from the entire chest area, suitable for a clean and smooth chest appearance.</p>
+                            <span class="price">$30</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Half Back</h3>
+                            <p>Removes hair from either the upper or lower half of the back.</p>
+                            <span class="price">$40</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Full Back</h3>
+                            <p>Comprehensive hair removal across the entire back, ensuring a smooth and clean look.</p>
+                            <span class="price">$50</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Stomach</h3>
+                            <p>Effectively removes hair from the stomach area, leaving skin smooth.</p>
+                            <span class="price">$30</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="Kids" class="tab-content" role="tabpanel">
+                    <h2>Ages 5 and Under</h2>
+                    <div class="services-grid">
+                        <div class="service-item">
+                            <h3>Pedicure</h3>
+                            <p>A gentle pedicure tailored for little feet. Includes a soothing soak, nail shaping, and a choice of fun, colorful polish.</p>
+                            <span class="price">$20</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Manicure</h3>
+                            <p>Perfect for tiny hands, this manicure includes careful nail shaping, a gentle cuticle treatment, and finishes with a bright polish of their choice.</p>
+                            <span class="price">$14</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Polish Change Hands/Feet</h3>
+                            <p>Quick and fun color change for kids who want to switch up their look. Choose from a variety of vibrant colors.</p>
+                            <span class="price">$5/$6</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Designs (2 nails)</h3>
+                            <p>Add a touch of creativity with two nail designs. Choose from stars, hearts, dots, and more to make your little one's nails stand out.</p>
+                            <span class="price">$5</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Gel Color Extra</h3>
+                            <p>A durable and glossy gel color application designed for active kids. Provides a long-lasting, chip-resistant finish.</p>
+                            <span class="price">$8</span>
+                        </div>
+                    </div>
+                    <h2>Ages 6-10</h2>
+                    <div class="services-grid">
+                        <div class="service-item">
+                            <h3>Pedicure</h3>
+                            <p>A gentle pedicure tailored for little feet. Includes a soothing soak, nail shaping, and a choice of fun, colorful polish.</p>
+                            <span class="price">$23</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Manicure</h3>
+                            <p>Perfect for tiny hands, this manicure includes careful nail shaping, a gentle cuticle treatment, and finishes with a bright polish of their choice.</p>
+                            <span class="price">$15</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Polish Change Hands/Feet</h3>
+                            <p>Quick and fun color change for kids who want to switch up their look. Choose from a variety of vibrant colors.</p>
+                            <span class="price">$6/$7</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Designs (2 nails)</h3>
+                            <p>Add a touch of creativity with two nail designs. Choose from stars, hearts, dots, and more to make your little one's nails stand out.</p>
+                            <span class="price">$5</span>
+                        </div>
+                        <div class="service-item">
+                            <h3>Gel Color Extra</h3>
+                            <p>A durable and glossy gel color application designed for active kids. Provides a long-lasting, chip-resistant finish.</p>
+                            <span class="price">$9</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Additional content sections here -->
+            </nav>
+        </section>
+    </main>
+    
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                © 2024 Perfect Nails & Spa. All rights reserved.
+            </div>
+            <nav class="footer-center">
+                <a href="about.html" class="footer-link">About Us</a>
+                <a href="services.html" class="footer-link">Services</a>
+                <a href="contact.html" class="footer-link">Contact</a>
+                <a href="location.html" class="footer-link">Location</a>
+            </nav>
+            <div class="footer-right" role="navigation" aria-label="Social media links">
+                <a href="https://www.facebook.com/p/Perfect-Nails-100057294076601/" target="_blank" class="social-link">
+                    <img src="images/icons/icons8-facebook.svg" alt="Facebook" class="social-icon">
+                </a>
+                <a href="https://instagram.com" class="social-link">
+                    <img src="images/icons/icons8-instagram.svg" alt="Instagram" class="social-icon">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

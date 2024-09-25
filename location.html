@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="styles.css" rel="stylesheet">
+    <title>Perfect Nails & Spa Location</title>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <button class="hamburger-menu" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-xmark" style="display:none;"></i>
+            </button>
+            <div class="logo">
+                <a href="index.html"><img src="images/Logo/perfect-nails-logo.png" alt="Perfect Nails & Spa Logo"></a>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="location.html">Location</a></li>
+            </ul>
+            <div class="nav-buttons">
+                <a href="contact.html" class="navbar-btn">Book Appointment</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-info">
+            <div class="info-block">
+                <div class="icon-container">
+                    <img src="images/icons/icons8-location.svg" alt="Location icon">
+                </div>
+                <h3>Location:</h3>
+                <p>8251 W. Union Hills Drive, Unit #120 Glendale, Arizona 85308</p>
+            </div>
+            <div class="info-block">
+                <div class="icon-container">
+                    <img src="images/icons/icons8-clock.svg" alt="Clock icon">
+                </div>
+                <h3>Hours of Operation:</h3>
+                <p>Monday - Friday: 9:00 AM to 7:00 PM</p>
+                <p>Saturday: 9:00 AM to 6:00 PM</p>
+                <p>Sunday: 10:30 AM to 5:00 PM</p>
+            </div>
+            <div class="info-block">
+                <div class="icon-container">
+                    <img src="images/icons/icons8-phone.svg" alt="Phone icon">
+                </div>
+                <h3>Phone Number:</h3>
+                <p>(623) 561-8928</p>
+            </div>
+        </section>
+        <!-- Google Map API -->
+        <section class="google-map">
+            <h2 class="map-section-title">Find Us Here!</h2>
+            <!-- The div element for the map -->
+            <div id="map"></div>
+            
+            <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUJ07b5bl94MX3VjBTBUKZZS9pgVh1OoY&callback=initMap" async defer></script>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                © 2024 Perfect Nails & Spa. All rights reserved.
+            </div>
+            <nav class="footer-center">
+                <a href="about.html" class="footer-link">About Us</a>
+                <a href="services.html" class="footer-link">Services</a>
+                <a href="contact.html" class="footer-link">Contact</a>
+                <a href="location.html" class="footer-link">Location</a>
+            </nav>
+            <div class="footer-right" role="navigation" aria-label="Social media links">
+                <a href="https://www.facebook.com/p/Perfect-Nails-100057294076601/" target="_blank" class="social-link">
+                    <img src="images/icons/icons8-facebook.svg" alt="Facebook" class="social-icon">
+                </a>
+                <a href="https://instagram.com" class="social-link">
+                    <img src="images/icons/icons8-instagram.svg" alt="Instagram" class="social-icon">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
